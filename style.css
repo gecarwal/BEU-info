@@ -106,3 +106,76 @@
     font-size: 13px;
     margin: 0 20px;
 }
+/* Footer section styling */
+.wed-hom-footer {
+    padding: 80px 0px 65px 0px;
+    background: #002147;
+}
+.wed-hom-footer h4 {
+    font-size: 14px;
+    color: #d6d6d6;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.wed-hom-footer p, .wed-hom-footer p a {
+    font-size: 13px;
+    color: #838384;
+}
+.wed-foot-link {
+    padding: 35px 0px;
+}
+.wed-foot-link ul li {
+    width: 50%;
+    float: left;
+}
+.wed-foot-link ul li a {
+    color: #838384;
+    font-size: 13px;
+}
+.wed-foot-link div {
+    border-right: 1px groove #6a83a0;
+}
+.wed-foot-link div:last-child {
+    border-right: 0;
+}
+
+/* Container and row styles */
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+/* Column size for medium screens */
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+/* Styles for video2 section */
+.wed-video2 {
+    padding: 50px 0;
+    background: #f1f1f1;
+}
+
+/* Additional styles for wed-foot-link-1 and wed-rights (if used) */
+.wed-foot-link-1 ul li a i {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid #6f6f6f;
+    border-radius: 20px;
+    padding: 8px;
+    color: #c5c5c5;
+}
+
+.wed-rights {
+    background: #01172f;
+}
+
+.wed-rights p {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 8px;
+    color: #adadad;
+    font-size: 13px;
+}
