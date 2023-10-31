@@ -73,3 +73,36 @@
     background-color: #232D3F;
     color: #ffffffc0;
 }
+
+/* separator line styling  */
+.content {
+    display: flex;
+    align-items: center;
+    margin: 20px 2%;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #4D4D4D;
+    /* margin: 0 20%; */
+}
+/* .line-left {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #4D4D4D;
+    margin: 0 1% 0 5%;
+}
+.line-right {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #4D4D4D;
+    margin: 0 5% 0 1%;
+} */
+
+.label {
+    white-space: nowrap;
+    color: #4D4D4D;
+    font-size: 13px;
+    margin: 0 20px;
+}
