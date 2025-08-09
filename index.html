@@ -1,212 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bihar Engineering University, Patna</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Home | BEU-Info</title>
 </head>
-
 <body>
-    <nav id="navBar" class="nav nav-dark">
-        <div class="nav-left">
-            <div class="logo">LOGO</div>
-        </div>
-        <div class="nav-right">
-            <ul>
-                <li>Home</li>
-                <li><a href="https://k-rd.github.io/BEU-Result-Fetcher/">BEU Result</a></li>
-                <li>About</li>
-                <li>Contct Us</li>
-                <li><button onclick="toggleNavMode()" class="btn-sec mode-btn" type="button">Mode</button></li>
-            </ul>
-        </div>
-    </nav>
-
-
-
-
-
-
-
-    
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Welcome to BEU</h1>
-        <p>Your Gateway to Engineering Excellence</p>
-        <a href="#" class="cta-button">Learn More</a>
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">About BEU</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- About BEU Section -->
-    <section class="about">
-        <h2>About BEU</h2>
-        <p>Insert your university's description here.</p>
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">Programs & Courses</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- Programs and Courses Section -->
-    <section class="programs">
-        <h2>Programs and Courses</h2>
-        <!-- Add cards or icons for different programs with links -->
-    </section>
-
-
-    <!-- Admissions Section -->
-    <section class="admissions">
-        <h2>Admissions</h2>
-        <!-- Include admission information and a CTA button for applications -->
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">Faculty & Staff</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- Faculty and Staff Section -->
-    <section class="faculty">
-        <h2>Faculty and Staff</h2>
-        <!-- Highlight faculty members and their expertise -->
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">Research &amp; Innovation</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- Research and Innovation Section -->
-    <section class="research">
-        <h2>Research and Innovation</h2>
-        <!-- Showcase research projects and achievements -->
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">Student's Life</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- Student Life Section -->
-    <section class="student-life">
-        <h2>Student Life</h2>
-        <!-- Include images or videos of student activities and campus facilities -->
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">News &amp; Updates</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- News and Updates Section -->
-    <section class="news">
-        <h2>News and Updates</h2>
-        <!-- Display the latest news and events -->
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">Students opinion</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>What Our Students Say</h2>
-        <!-- Add quotes or videos from satisfied students or alumni -->
-    </section>
-
-    <!-- separator line -->
-    <section>
-        <div class="content">
-            <div class="line line-left"></div>
-            <div class="label">Contact &amp; Us</div>
-            <div class="line line-right"></div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <h2>Contact Us</h2>
-        <!-- Include contact details and a contact form -->
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="wed-hom-footer">
-        <div class="container">
-            <div class="row wed-foot-link">
-                <div class="col-md-4 foot-tc-mar-t-o">
-                    <h4>Get In Touch</h4>
-                    <p>Email: <a href="mailto:beuinfo@gmail.com">beuinfo@gmail.com</a></p>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+                        <circle cx="30" cy="30" r="30" fill="#0066cc"/>
+                        <path d="M20 20L30 40L40 20" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="30" cy="25" r="3" fill="white"/>
+                    </svg>
                 </div>
-                <div class="col-md-4">
-                    <h4>Courses </h4>
-                    <ul>
-                        <li><a href="course-details.html">Computer Science Engineering</a></li>
-                        <li><a href="course-details.html">Electrical Engineering</a></li>
-                        <li><a href="course-details.html">Mechanical Engineering</a></li>
-                        <li><a href="course-details.html">Civil Engineering</a></li>
-                        <li><a href="course-details.html">Software Engineering</a></li>
-                        <li><a href="course-details.html">Graphic Design and Multimedia</a></li>
-                        <li><a href="course-details.html">Network Security and Cybersecurity</a></li>
-                        <li><a href="course-details.html">Information Technology Management</a></li>
+                <div class="logo-text">Bihar Engineering<span>University, Patna</span></div>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                    <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                    <li><a href="#" class="nav-link" data-page="departments">Departments</a></li>
+                    <li><a href="#" class="nav-link" data-page="admissions">Admissions</a></li>
+                    <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Main Content -->
+    <main>
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Shaping Futures Through Excellence in Education</h1>
+                        <p>Techville University is a premier institution dedicated to academic excellence, innovation, and the holistic development of students. Join our vibrant community and unlock your potential.</p>
+                        <div class="hero-btns">
+                            <a href="#" class="btn" data-page="admissions">Apply Now</a>
+                            <a href="#" class="btn btn-secondary" data-page="about">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="announcements">
+                        <h3>Latest Announcements</h3>
+                        <div class="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">Fall 2023 admissions now open! Apply before August 30th.</div>
+                                <div class="carousel-item">New scholarship program launched for STEM students.</div>
+                                <div class="carousel-item">Campus reopening with full safety protocols from September 1st.</div>
+                                <div class="carousel-item">Annual Tech Fest scheduled for October 15-17, 2023.</div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <div class="carousel-dot active"></div>
+                            <div class="carousel-dot"></div>
+                            <div class="carousel-dot"></div>
+                            <div class="carousel-dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Our University</h2>
+                    <p>Discover our rich history, mission, and vision</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Founded in 1985, Techville University has grown to become one of the leading educational institutions in the region. We have consistently ranked among the top universities for academic excellence, research output, and graduate employability.</p>
+                        <p>Our campus spans over 100 acres with state-of-the-art facilities including modern laboratories, a comprehensive library, sports complex, and comfortable student accommodations.</p>
+                    </div>
+                    <div class="about-img">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1086&q=80" alt="University Campus">
+                    </div>
+                </div>
+                
+                <div class="history-mission">
+                    <div class="history">
+                        <h3>Our History</h3>
+                        <p>Techville University was established in 1985 with just three departments and 200 students. Over the decades, we have expanded our academic offerings and infrastructure while maintaining our commitment to quality education.</p>
+                    </div>
+                    
+                    <div class="mission">
+                        <h3>Our Mission</h3>
+                        <p>To provide transformative education that empowers students to become innovative leaders, critical thinkers, and socially responsible global citizens.</p>
+                    </div>
+                    
+                    <div class="vision">
+                        <h3>Our Vision</h3>
+                        <p>To be a globally recognized center of academic excellence that drives innovation and positive change in society through education and research.</p>
+                    </div>
+                </div>
+                
+                <div class="principal-message">
+                    <h3>A Message from Our Principal</h3>
+                    <p>"At Techville University, we believe in nurturing talent and fostering innovation. Our dedicated faculty, world-class facilities, and vibrant campus life create an environment where students can thrive academically and personally. We are committed to providing an education that prepares students not just for careers, but for meaningful lives and leadership roles in an increasingly complex world."</p>
+                    <div class="principal-info">
+                        <div class="principal-photo">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Principal">
+                        </div>
+                        <div>
+                            <h4>Dr. Robert Johnson</h4>
+                            <p>Principal, Techville University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Departments Page -->
+        <section id="departments" class="page section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Academic Departments</h2>
+                    <p>Explore our diverse range of academic disciplines</p>
+                </div>
+                
+                <div class="departments-grid">
+                    <div class="department-card">
+                        <div class="dept-img">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Computer Science">
+                        </div>
+                        <div class="dept-content">
+                            <h3>Computer Science</h3>
+                            <p>Explore the world of algorithms, artificial intelligence, and software development with our cutting-edge programs.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="department-card">
+                        <div class="dept-img">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Engineering">
+                        </div>
+                        <div class="dept-content">
+                            <h3>Engineering</h3>
+                            <p>From civil to mechanical, electrical to chemical, our engineering programs prepare students for real-world challenges.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="department-card">
+                        <div class="dept-img">
+                            <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Business">
+                        </div>
+                        <div class="dept-content">
+                            <h3>Business Administration</h3>
+                            <p>Develop leadership skills and business acumen to excel in today's dynamic corporate environment.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="department-card">
+                        <div class="dept-img">
+                            <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="Medicine">
+                        </div>
+                        <div class="dept-content">
+                            <h3>Medical Sciences</h3>
+                            <p>Train to become healthcare professionals with our comprehensive medical and health sciences programs.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="department-card">
+                        <div class="dept-img">
+                            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Environmental Science">
+                        </div>
+                        <div class="dept-content">
+                            <h3>Environmental Science</h3>
+                            <p>Study the environment and develop solutions to pressing ecological challenges facing our planet.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="department-card">
+                        <div class="dept-img">
+                            <img src="https://images.unsplash.com/photo-1495465798138-718f86d1a4f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Humanities">
+                        </div>
+                        <div class="dept-content">
+                            <h3>Humanities & Social Sciences</h3>
+                            <p>Explore human culture, society, and thought through our diverse humanities and social science programs.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admissions Page -->
+        <section id="admissions" class="page section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Admissions</h2>
+                    <p>Begin your journey at Techville University</p>
+                </div>
+                
+                <div class="admissions-content">
+                    <div class="admission-info">
+                        <h3>Admission Procedure</h3>
+                        <p>Our admission process is designed to identify talented and motivated students who will thrive in our academic community.</p>
+                        
+                        <div class="procedure-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div>
+                                    <h4>Application Submission</h4>
+                                    <p>Complete the online application form with required documents.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div>
+                                    <h4>Entrance Examination</h4>
+                                    <p>Appear for the university entrance test (if applicable to your program).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div>
+                                    <h4>Interview</h4>
+                                    <p>Shortlisted candidates will be invited for a personal interview.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div>
+                                    <h4>Admission Offer</h4>
+                                    <p>Successful candidates will receive an admission offer letter.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div>
+                                    <h4>Fee Payment & Enrollment</h4>
+                                    <p>Complete the enrollment process by paying the admission fee.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3>Eligibility Criteria</h3>
+                        <ul class="eligibility-list">
+                            <li>Completion of 12 years of formal education</li>
+                            <li>Minimum 60% marks in qualifying examination</li>
+                            <li>Valid score in national/state entrance exams</li>
+                            <li>English language proficiency (for international students)</li>
+                            <li>Program-specific requirements as applicable</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="application-form">
+                        <h3>Online Application Form</h3>
+                        <form id="admissionForm">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="program">Program of Interest</label>
+                                <select id="program" class="form-control" required>
+                                    <option value="">Select a program</option>
+                                    <option value="cs">Computer Science</option>
+                                    <option value="eng">Engineering</option>
+                                    <option value="business">Business Administration</option>
+                                    <option value="med">Medical Sciences</option>
+                                    <option value="env">Environmental Science</option>
+                                    <option value="hum">Humanities & Social Sciences</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="qualification">Highest Qualification</label>
+                                <input type="text" id="qualification" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Additional Information</label>
+                                <textarea id="message" class="form-control" rows="4"></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" required> I agree to the terms and conditions
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn">Submit Application</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page section contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact Us</h2>
+                    <p>Get in touch with our team</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Full Name</label>
+                                <input type="text" id="contactName" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" id="contactSubject" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contactMessage">Message</label>
+                                <textarea id="contactMessage" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Our Location</h3>
+                                <p>123 Education Boulevard, Techville, TV 12345</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Phone & Email</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <p>info@techvilleuniversity.edu</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h3>Working Hours</h3>
+                                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                                <p>Saturday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Follow Us</h3>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.966309534304!2d-73.99130508459592!3d40.74205497932878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3f81b3b89%3A0x7c0fc8c4c7a3e84e!2sFlatiron%20Building!5e0!3m2!1sen!2sus!4v1658163629627!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Techville University</h3>
+                    <p>Excellence in education since 1985. We are committed to providing world-class education and fostering innovation.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="departments">Academics</a></li>
+                        <li><a href="#" data-page="admissions">Admissions</a></li>
+                        <li><a href="#" data-page="contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <h4>HELP & SUPPORT</h4>
-                    <ul>
-                        <li><a href="#">24x7 Live help</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Feedback</a></li>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Safety Tips</a></li>
+                
+                <div class="footer-col">
+                    <h3>Programs</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Undergraduate Programs</a></li>
+                        <li><a href="#">Graduate Programs</a></li>
+                        <li><a href="#">Doctoral Programs</a></li>
+                        <li><a href="#">Certificate Courses</a></li>
+                        <li><a href="#">Online Learning</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education Blvd, Techville</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@techvilleuniversity.edu</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 5:00 PM</li>
                     </ul>
                 </div>
             </div>
-
+            
+            <div class="copyright">
+                <p>&copy; 2023 Techville University. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
-
-
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
-
 </html>
